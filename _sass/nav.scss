@@ -1,0 +1,22 @@
+.top-header {
+    transform: skew(0deg);
+    width: 100%;
+    margin-right: 0;
+    margin-left: 0;
+    opacity: 0;
+}
+
+nav {
+    align-self: center;
+}
+
+nav > ul {
+    margin-right: 50px;
+}
+
+nav > ul > li {
+    display: inline;
+    margin: 10px;
+    font-size: 25px;
+}
+
