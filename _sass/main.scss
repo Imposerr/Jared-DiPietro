@@ -13,36 +13,6 @@
     opacity: 1;
 }
 
-.flex-box-1 {
-    display: flex;
-    justify-content: space-evenly;
-    flex-flow: row wrap;
-    background-color: white;
-    padding: 1%;
-    transform: skew(5deg);
-    width: 90%;
-    margin-left: 5%;
-    margin-right: 5%;
-    margin-bottom:50px;
-    box-shadow: -10px 10px rgba(0, 0, 0, 0.75);
-    opacity: 0;
-}
-
-.javatest {
-    display: flex;
-    justify-content: space-evenly;
-    flex-flow: row wrap;
-    background-color: white;
-    padding: 1%;
-    transform: skew(5deg);
-    width: 90%;
-    margin-left: 5%;
-    margin-right: 5%;
-    margin-bottom:50px;
-    box-shadow: -10px 10px rgba(0, 0, 0, 0.75);
-    opacity: 0;
-}
-
 h1,h2,h3,h4,h5,h6 {
     margin:0;
 }
