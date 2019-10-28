@@ -1,29 +1,158 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Page Title</title>
-    <!-- Google Tag Manager -->
-    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-    })(window,document,'script','dataLayer','GTM-5G52Q4F');</script>
-    <!-- End Google Tag Manager -->
-    <link rel="stylesheet" type="text/css" media="screen" href="main.css">
-    <script src="main.js"></script>
-
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="css/main.css" type="text/css" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.typekit.net/ppb7emr.css">
+    <title>Jared DiPietro - Style Guide</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="js/js.js"></script>
 </head>
 <body>
+    <div class="main-wrapper">
+            <header class="flex-box top-header">
+                <img class="section-item" src="images/Logo.svg" alt="Logo" height="100px"> 
+                <nav>
+                    <ul>
+                        <li>
+                            <a href="#text">Text</a>
+                        </li>
+                        <li>
+                            <a href="#ti">Text + Images</a>
+                        </li>
+                        <li>
+                            <a href="#colours">Colours</a>
+                        </li>
+                        <li>
+                            <a href="#links">Links</a>
+                        </li>
+                        <li>
+                            <a href="#widgets">Widgets</a>
+                        </li>
+                    </ul>
+                </nav>
+            </header>
+        <section class="flex-box" id="text">
 
-    <!-- Google Tag Manager (noscript) -->
-    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5G52Q4F"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
-    
-    <h1>HELLO WORLD</h1>
+            <h1 class="section-title header-copy">
+                Text
+            </h1>
+
+            <div class="sub-section">
+                <ul class="text-display body-copy">
+                    <li>Europa Regular</li>
+                    <li>ABCDEFGHIJKLMNOPQRSTUVWXYZ</li>
+                    <li>123456789!@#$%^&*()</li>
+                </ul>
+                <p class="snippet"> &lt;p class="body-copy"> Body Copy&gt; </p>
+            </div>
+
+            <div class="sub-section">
+                <ul class="text-display header-copy">
+                    <li>Europa Bold</li>
+                    <li>ABCDEFGHIJKLMNOPQRSTUVWXYZ</li>
+                    <li>123456789!@#$%^&*()</li>
+                </ul>
+                <p class="snippet"> &lt;p class="header-copy"> Header Copy&gt; </p>
+            </div>
+
+            <div class="break"></div>
+
+            <article>
+                <h1 class="main-head header-copy">Header</h1>
+                <p class="paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            </article>
+
+            <article>
+                <h1 class="main-head header-copy">Header</h1>
+                <h4 class="subhead header-copy">Subhead</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            </article>
+                
+            
+        </section>
+        <section class="javatest" id="Logo">
+            <h1 class="section-title header-copy">
+                Logo
+            </h1>
+            <div class="safe straight">
+                <h2>Logo Safe Areas</h2>
+                <img class="logo" src="images/Logo-Safe.svg" alt="Jared Logo Safe Areas">
+            </div>
+
+            <div class="sub-section half">
+
+            <p class="paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+            <p class="snippet"> &lt;img class="logo" src="images/Logo.svg" alt="Jared DiPietro Logo">&gt; </p>
+
+            </div>
+
+            <div class="break"></div>
+
+            <div class="gallery straight">
+                <img class="gallery-image" src="images/death_web.jpg" alt="Death Darksiders">
+            </div>
+            <div class="gallery straight">
+                <img class="gallery-image" src="images/Moose.jpg" alt="Moose Logo">
+            </div>
+            <div class="gallery straight">
+                <img class="gallery-image" src="images/Package.jpg" alt="Toy Packaging">
+            </div>
+            <div class="gallery straight">
+                <img class="gallery-image" src="images/Wolverine.jpg" alt="Wovlerine">
+            </div>
+        </section>
+        <section class="flex-box-1" id="colours">
+            <h1 class="section-title header-copy">
+                Colours
+            </h1>
+            <ul class="colours">
+                <li>
+                    <div class="colour-box light-blue"></div>
+                    <p>CMYK - 55, 0, 12, 0 <br> RGB 25, 236, 247 <br> HEX - #19ecf7 <br> Tints - 100%, 15%</p>
+                    <div class="break col"></div>
+                    <p class="snippet our"> &lt;div class="light-blue"> Body Copy &lt;div&gt; </p>
+                </li>
+                <li>
+                        <div class=" colour-box darker-blue"></div>
+                        <p>CMYK - 72, 8, 9, 0 <br> RGB 15, 178, 216 <br> HEX - #0fb2d8 <br> Tints - 100%</p>
+                        <div class="break col"></div>
+                        <p class="snippet our"> &lt;div class="darker-blue"> Body Copy &lt;div&gt; </p>
+                </li>
+                <li>
+                        <div class=" colour-box bright-orange"></div>
+                        <p>CMYK - 0, 42, 94, 0 <br> RGB 255, 162, 39 <br> HEX - #ffa227 <br> Tints - 100%, 30%</p>
+                        <div class="break col"></div>
+                        <p class="snippet our"> &lt;div class="bright-orange"> Body Copy &lt;div&gt; </p>
+                </li>
+                <li>
+                        <div class=" colour-box burnt-orange"></div>
+                        <p>CMYK - 20, 61, 100, 5 <br> RGB 195, 114, 24 <br> HEX - #c37218 <br> Tints - 100%</p>
+                        <div class="break col"></div>
+                        <p class="snippet our"> &lt;div class="burnt-orange"> Body Copy &lt;div&gt; </p>
+                </li>
+            </ul>
+        </section>
+        <section class="flex-box" id="ti">
+                <h1 class="section-title header-copy">
+                    Text + Images
+                </h1>
+                
+            </section>
+        <section class="flex-box" id="links">
+            <h1 class="section-title header-copy">
+                Links
+            </h1>
+        </section>
+        <section class="flex-box" id="widgets">
+            <h1 class="section-title header-copy">
+                Widgets
+            </h1>
+        </section class="section-title header-copy">
+    </div>
     
 </body>
 </html>
