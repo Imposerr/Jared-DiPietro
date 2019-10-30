@@ -1,7 +1,13 @@
 title: Jared DiPietro
 email: jared135@hotmail.ca
-baseurl: ""
-url: "https://imposerr.github.io/Jared-DiPietro"
+baseurl: "https://imposerr.github.io"
+url: "/Jared-DiPietro"
 
 sass:
   style: compact
+
+  design:
+
+    output: true
+
+    permalink: /:collection/:path/
