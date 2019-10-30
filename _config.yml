@@ -3,9 +3,6 @@ email: jared135@hotmail.ca
 baseurl: "https://imposerr.github.io"
 url: "/Jared-DiPietro"
 
-sass:
-  style: compact
-
 
 collections:
 
@@ -18,3 +15,7 @@ collections:
 design:
   output: true
   permalink: /:collection/:path/
+
+sass:
+  style: compact
+
