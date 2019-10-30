@@ -5,15 +5,17 @@ permalink: /design/main/
 ---
 
 <ul>
-    {% for design in site.design %}
-    <li>
-        <figure>
-            <img src="{{design.img}}">
-            <figcaption>
+{% for design in site.design %}
+
+<li>
+    <figure>
+        <img src="{{design.img}}">
+        <figcaption>
                 
 <!-- <a href="{{site.url}}{{page.url}}{{design.title">{{design.title}}</a> --> /:title.html
-            </figcaption>
-        </figure>
-    </li>
-    {% endfor %}
+        </figcaption>
+    </figure>
+</li>
+
+{% endfor %}
 </ul>
