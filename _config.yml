@@ -5,16 +5,9 @@ url: "/Jared-DiPietro"
 
 
 collections:
-
-  illustrations:
-
+  design:
     output: true
-
     permalink: /:collection/:path/
-
-design:
-  output: true
-  permalink: /:collection/:path/
 
 sass:
   style: compact
