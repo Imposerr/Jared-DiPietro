@@ -6,8 +6,15 @@ url: "/Jared-DiPietro"
 sass:
   style: compact
 
-  design:
+
+collections:
+
+  illustrations:
 
     output: true
 
     permalink: /:collection/:path/
+
+design:
+  output: true
+  permalink: /:collection/:path/
